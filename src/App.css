@@ -1,22 +1,28 @@
 .App {
   text-align: center;
+  margin: 25px;
+  background-color: #f2f7f4;
+  width: 90vw;
+  height: 190vh;
+  border-radius: 10px; 
+  display: flex;
+  justify-content: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
+.App h1{
+  font-size:larger;
+  color:black;
+  padding-top: 40px;
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+}
+.App a{
+  color: black;
+  font-size:x-small;
 }
 
 .App-header {
-  background-color: #282c34;
+  
   min-height: 100vh;
-  display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
@@ -35,4 +41,63 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+body{
+  background-color: yellow;
+  display: flex;
+  justify-content: center; 
+  /* justify-content: es para centrar en horizontal */
+  align-items: center;
+  /* aling-items es para centrar vertical*/
+}
+.App1{
+  background-color: white;
+  display: grid;
+  grid-template-columns: auto auto;
+  padding: 10px;
+}
+
+  .App1 p{
+    font-size: small;
+    color: black;
+    margin-top: -10px;
+    position: relative; 
+    right: 20%;
+    text-align: left;
+    
+  }
+
+.bloque{
+  background-color: white;
+  height: 180px;
+  margin: 5px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: left;
+  border: 2px solid black;
+
+}
+.bloque img{
+  height: 180px;
+
+}
+.App2 {
+  background-color: white;
+  border: 2px solid black;
+  width: 180px;
+  height: 110px;
+  margin-top: 60px;
+  margin-left: auto;
+  
+}
+.App2 ul{
+  margin-top: 20px;
+}
+.footer{
+  background-color: gray;
+  width: 420px;
+  height: 10px;
+  margin-top: 170px;
+  margin-right: -423px;
 }
